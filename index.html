@@ -47,12 +47,18 @@
     <button class="back-button" onclick="backToMenuFromResult()">最初の画面に戻る</button>
   </div>
 
-  <div id="past-results" class="screen" style="display:none;">
+<div id="past-results" class="screen" style="display:none;">
     <h2>過去の結果</h2>
     <button class="back-button" onclick="backToMenuFromPastResults()">最初の画面に戻る</button>
-    <button class="clear-results-button" onclick="clearResults()">全履歴を削除</button>
-    <div id="past-results-list"></div>
-    <div id="past-results-details"></div>
+    <button class="clear-results-button" onclick="clearResults()">結果を全て削除</button>
+
+    <div id="weak-learning-items-summary" class="summary-container">
+      </div>
+
+    <div id="past-results-list" class="list-container">
+      </div>
+    <div id="past-results-details" class="details-container">
+      </div>
   </div>
 
   <div id="question-list" class="screen" style="display:none;">
